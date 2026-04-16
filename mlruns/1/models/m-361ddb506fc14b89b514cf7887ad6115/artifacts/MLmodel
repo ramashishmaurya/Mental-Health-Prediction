@@ -1,0 +1,23 @@
+artifact_path: file:E:/Mental-Health-Prediction/mlruns/1/models/m-361ddb506fc14b89b514cf7887ad6115/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-361ddb506fc14b89b514cf7887ad6115
+model_size_bytes: 16944
+model_uuid: m-361ddb506fc14b89b514cf7887ad6115
+prompts: null
+run_id: 273d751ee61a49988e32798605e67d97
+utc_time_created: '2026-04-16 10:37:19.548010'
